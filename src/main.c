@@ -27,7 +27,7 @@ void generate_password(char *password, int n){
 
 	while(n-- >= 0){
 		// In the extended ascii table, the english chars 
-		// go from 33 to 94
+		// go from 33 to 126
 		*password++ = (33 + rand()%94);
 	}
 	
